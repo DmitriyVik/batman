@@ -222,7 +222,12 @@ body {
 }
 
 .tabs-content {
+  display: none;
   margin-right: 100px;
+}
+
+.visible {
+  display: block;
 }
 
 .tabs {
@@ -243,12 +248,12 @@ body {
   margin-right: 4%;
 }
 
-/* .tabs-item-active {
-  color: #ff8f27;
-} */
-.tabs-item:hover {
+.tabs-item-active {
   color: #ff8f27;
 }
+/* .tabs-item:hover {
+  color: #ff8f27;
+} */
 
 .text {
   font-size: 16px;
