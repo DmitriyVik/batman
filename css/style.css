@@ -275,7 +275,7 @@ body {
 }
 
 .subscribe-input {
-  width: 100%;
+  /* width: 100%; */
   background: rgba(196, 196, 196, 0.5);
   border-top-left-radius: 5px;
   border-bottom-left-radius: 5px;
